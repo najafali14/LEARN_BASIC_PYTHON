@@ -1,0 +1,67 @@
+# PYTHON ENVIRONMENT SETUP
+python apps for coding:
+1> for android:  https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
+2> python idle for pc: https://www.python.org/downloads/
++ vscode
+
+3> install python extention in vs code
+then create python file  main.py
+.py is a python exxtention to create python file
+
+4> python online coding: https://colab.google/
+
+# USE OF print() FUNCTION
+print() is a python function that prrint any words,sentenses or data type
+
+# how to print Hello World in python
+print('hello world')
+you can print number directly
+print(55)
+
+
+# VARIABLE
+variable is a box that save values or any data
+like..
+name = 'Ali'
+print(name)
+
+age = 20
+print(age)
+
+python automatically detect type of data( like integer, string, float,boolean)
+
+# + AND *
+
++ used for addition in numbers
+like..
+print(6+8)   output:14
++ used for concatination in strings
+print('hello'+'world')   output: helloworld
+
+* used for multiplication in numbers
+like ...
+print(5*6)    output: 30
+
+* used for how much time print in string
+like ...
+print('Ali'*5)    output: AliAliAliAliALi     ,  print five times
+
+we start comments with # symbol in python
+comments are used to guiding
+python skip comments
+
+# STRING FORMATING
+we use f' ' for string formating in python
+like ..
+name = 'Najaf Ali'
+print(f'Hello {name}')
+
+we write variable name in {} brces when we use string formating
+
+more example:
+name = 'Najaf Ali'
+age = 21
+print(f'Hello {name} your age is: {age}')
+
+
+THANKS...
