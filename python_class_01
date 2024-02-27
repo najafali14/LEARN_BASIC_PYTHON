@@ -1,0 +1,74 @@
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+
+
+# List
+#Tuples are created using large bracket []
+#list creation
+list1 = [1,2,3,4,'five']
+print(list1)
+print(list1[2])
+// Basic functions:
+#insert(): Inserts an element at a specified position.
+list1.insert(1,'a')
+print(list1)
+# append(): Adds an element to the end of the list.
+list1.append(6)
+print(list1)
+#remove(): Removes the first occurrence of a specified value.
+list1.remove(1)
+print(list1)
+#sort(): Sorts the list in ascending order.
+list2 = [2,4,1,7,5,9]
+list2.sort()
+print(list2)
+#reverse(): Reverses the order of elements in the list.
+list2.reverse()
+print(list2)
+
+
+
+#Tuples:
+#Tuples are created using parentheses ()
+#tuples creation
+t1 = ('a','b','c',4)
+print(t1)
+print(t1[2])
+
+
+
+#Set:
+#Sets are created using curly braces {}
+# set creation
+set1 = {1,2,3,4,5}
+print(set1)
+#add(): Adds an element to the set.
+set1.add(6)
+print(set1)
+#remove(): Removes a specified element from the set.
+set1.remove(1)
+print(set1)
+
+
+
+#Dictionaries:
+#Dictionaries are collections of key-value pairs.
+#Dictionaries are created using curly braces {} and key-value pairs separated by colons :
+# dictionary creation
+d1 = {'name':'Ali','age':7}
+print(d1)
+print(d1['name'])
+#print only keys
+print(d1.keys())
+#print only values
+print(d1.values())
+
+
+
+THANKS
