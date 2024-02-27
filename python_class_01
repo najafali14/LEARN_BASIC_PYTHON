@@ -9,7 +9,7 @@ Dictionary is a collection which is ordered** and changeable. No duplicate membe
 
 
 # List
-#Tuples are created using large bracket []
+#List are created using large bracket []
 #list creation
 list1 = [1,2,3,4,'five']
 print(list1)
