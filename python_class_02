@@ -1,0 +1,27 @@
+# Conditions
+        # if
+        # elif
+        #else
+name = input('enter your name: ')   # to get name from user
+if name=='najaf':
+  print('login successfully')
+elif name=='ali':
+  print('login successfully')
+else:
+  print('please signup first')
+#Loops
+      # for loop
+for i in range(10):
+  print(i)  #   0-9 output
+
+names = ['najaf','ali']  #list of names
+for i in names:
+  print(i)  # output najaf , ali
+names = 'ali'
+for i in names: 
+  print(i)  # every words print separately
+      # while loop
+# while conditions:
+#   code
+while True:
+  print("Hello")
