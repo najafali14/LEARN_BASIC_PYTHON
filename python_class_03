@@ -1,0 +1,15 @@
+# creating function
+# in python we create function using def keyword
+def MyFun():
+  print('hello Ali')
+
+#calling function
+# without calling function we can't see output
+MyFun()
+
+#we can create variables inside function = parameter
+def PersonDetails(name,age):
+  print(f'name of person is: {name} and age of person is: {age}')
+
+PersonDetails('Ali',7)
+PersonDetails('Najaf Ali',21)
